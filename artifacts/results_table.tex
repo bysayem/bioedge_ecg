@@ -1,0 +1,9 @@
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Model & accuracy & precision_arrhythmia & recall_arrhythmia & f1_arrhythmia & roc_auc & Params & Size_KB & Latency_ms & Latency_std & Est_Energy_pJ \\
+\midrule
+FP32 CNN & 0.9773 & 0.9116 & 0.9618 & 0.9360 & 0.9927 & 97122 & 385.1514 & 0.1865 & 0.0334 & 1625456.0000 \\
+INT8 CNN (full static) & 0.9769 & 0.9106 & 0.9605 & 0.9349 & 0.9927 & 2732 & 109.1260 & 0.3669 & 0.0384 & 1625456.0000 \\
+SNN (T=20) & 0.9610 & 0.8796 & 0.8967 & 0.8881 & 0.9832 & 5666 & 28.4033 & 21.1658 & 2.0476 & 1935169.3062 \\
+\bottomrule
+\end{tabular}

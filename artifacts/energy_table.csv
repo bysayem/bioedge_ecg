@@ -1,0 +1,4 @@
+Model,Total_Ops,Op_Type,Est_Energy_pJ
+FP32 CNN,353360.0,MAC (fp32),1625456.0000000002
+INT8 CNN (full static),353360.0,mixed (see Cell 27 per-layer report),1625456.0000000002
+SNN (T=20),696256.8738351909,"MAC (conv1) + AC (conv2, fc1)",1935169.306215056
